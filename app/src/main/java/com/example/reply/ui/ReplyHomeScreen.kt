@@ -144,7 +144,7 @@ private fun ReplyAppContent(
     onTabPressed: ((MailboxType) -> Unit),
     onEmailCardPressed: (Email) -> Unit,
     navigationItemContentList: List<NavigationItemContent>,
-    modifier: Modifier = Modifier,
+    modifier: Modifier = Modifier
 ) {
     Box(modifier = modifier) {
         Row(modifier = Modifier.fillMaxSize()) {
